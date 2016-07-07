@@ -23,6 +23,7 @@
                                     <constraint firstAttribute="width" constant="242" id="8tu-ra-247"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <color key="textColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -38,4 +39,5 @@
             <point key="canvasLocation" x="245" y="305"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.14117647059999999" green="0.41176470590000003" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
 </document>
