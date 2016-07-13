@@ -13,6 +13,12 @@
 		840038AC1D2673C000EB5CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038AA1D2673C000EB5CDA /* LaunchScreen.storyboard */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
+		CD679FE41D3610AF00211116 /* RSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE31D3610AF00211116 /* RSUser.m */; };
+		CD679FE71D36117600211116 /* RSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE61D36117600211116 /* RSProperty.m */; };
+		CD679FEA1D36127500211116 /* RSCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE91D36127500211116 /* RSCompany.m */; };
+		CD679FED1D36128600211116 /* RSReview.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FEC1D36128600211116 /* RSReview.m */; };
+		CD679FF01D36129600211116 /* RSFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FEF1D36129600211116 /* RSFeatures.m */; };
+		CD679FF21D36163800211116 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD679FF11D36163800211116 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		84B22DAB1D2D2FB60066E371 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84B22DAD1D2D2FC00066E371 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84B22DAE1D2D2FC00066E371 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD679FE21D3610AF00211116 /* RSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUser.h; sourceTree = "<group>"; };
+		CD679FE31D3610AF00211116 /* RSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUser.m; sourceTree = "<group>"; };
+		CD679FE51D36117600211116 /* RSProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSProperty.h; sourceTree = "<group>"; };
+		CD679FE61D36117600211116 /* RSProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSProperty.m; sourceTree = "<group>"; };
+		CD679FE81D36127500211116 /* RSCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCompany.h; sourceTree = "<group>"; };
+		CD679FE91D36127500211116 /* RSCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCompany.m; sourceTree = "<group>"; };
+		CD679FEB1D36128600211116 /* RSReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSReview.h; sourceTree = "<group>"; };
+		CD679FEC1D36128600211116 /* RSReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSReview.m; sourceTree = "<group>"; };
+		CD679FEE1D36129600211116 /* RSFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSFeatures.h; sourceTree = "<group>"; };
+		CD679FEF1D36129600211116 /* RSFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSFeatures.m; sourceTree = "<group>"; };
+		CD679FF11D36163800211116 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD679FF21D36163800211116 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 		840038901D2673C000EB5CDA = {
 			isa = PBXGroup;
 			children = (
+				CD679FF11D36163800211116 /* MapKit.framework */,
 				8400389B1D2673C000EB5CDA /* mRealState */,
 				8400389A1D2673C000EB5CDA /* Products */,
 			);
@@ -101,6 +120,16 @@
 		84B22DA71D2D2F870066E371 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CD679FE21D3610AF00211116 /* RSUser.h */,
+				CD679FE31D3610AF00211116 /* RSUser.m */,
+				CD679FE51D36117600211116 /* RSProperty.h */,
+				CD679FE61D36117600211116 /* RSProperty.m */,
+				CD679FE81D36127500211116 /* RSCompany.h */,
+				CD679FE91D36127500211116 /* RSCompany.m */,
+				CD679FEB1D36128600211116 /* RSReview.h */,
+				CD679FEC1D36128600211116 /* RSReview.m */,
+				CD679FEE1D36129600211116 /* RSFeatures.h */,
+				CD679FEF1D36129600211116 /* RSFeatures.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +179,11 @@
 				TargetAttributes = {
 					840038981D2673C000EB5CDA = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -189,9 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD679FED1D36128600211116 /* RSReview.m in Sources */,
 				84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */,
 				84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */,
+				CD679FF01D36129600211116 /* RSFeatures.m in Sources */,
 				8400389E1D2673C000EB5CDA /* main.m in Sources */,
+				CD679FE41D3610AF00211116 /* RSUser.m in Sources */,
+				CD679FEA1D36127500211116 /* RSCompany.m in Sources */,
+				CD679FE71D36117600211116 /* RSProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
