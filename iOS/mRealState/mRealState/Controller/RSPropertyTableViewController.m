@@ -7,8 +7,10 @@
 //
 
 #import "RSPropertyTableViewController.h"
+#import "RSPropertyTableViewCell.h"
 
 @implementation RSPropertyTableViewController
+
 
 #pragma mark TableView Deleage
 
@@ -20,8 +22,29 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *homeCellIdentifier = @"propertyCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:homeCellIdentifier];
+    RSPropertyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:homeCellIdentifier];
     
+    if (indexPath.row == 1) {
+        cell.propertyImageView.image = [UIImage imageNamed:@"room_design2"];
+        cell.propertyNameLabel.text = @"Northern Lights";
+        cell.propertyAddressLabel.text = @"Road 69, Gulshan";
+        cell.propertyPriceLabel.text = @"$ 200/sqft";
+        cell.propertyAreaLabel.text = @"2650 sqft";
+    }else if (indexPath.row == 2){
+        cell.propertyImageView.image = [UIImage imageNamed:@"room_design3"];
+        cell.propertyNameLabel.text = @"The Izar";
+        cell.propertyAddressLabel.text = @"Banani DOHS, Dhaka";
+        cell.propertyPriceLabel.text = @"$ 180/sqft";
+        cell.propertyAreaLabel.text = @"1650 sqft";
+    }else if (indexPath.row == 4){
+        cell.propertyImageView.image = [UIImage imageNamed:@"room_design2"];
+        cell.propertyNameLabel.text = @"Chisty's Yacht";
+        cell.propertyAddressLabel.text = @"Road 05A, Dhanmondi";
+        cell.propertyPriceLabel.text = @"$ 220/sqft";
+        cell.propertyAreaLabel.text = @"2300 sqft";
+    }else {
+        cell.propertyImageView.image = [UIImage imageNamed:@"room_design"];
+    }
     return  cell;
 }
 
