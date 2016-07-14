@@ -11,6 +11,7 @@
 		840038A71D2673C000EB5CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038A51D2673C000EB5CDA /* Main.storyboard */; };
 		840038A91D2673C000EB5CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840038A81D2673C000EB5CDA /* Assets.xcassets */; };
 		840038AC1D2673C000EB5CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038AA1D2673C000EB5CDA /* LaunchScreen.storyboard */; };
+		841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
 		CD679FE41D3610AF00211116 /* RSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE31D3610AF00211116 /* RSUser.m */; };
@@ -30,6 +31,8 @@
 		840038A81D2673C000EB5CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840038AB1D2673C000EB5CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840038AD1D2673C000EB5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841CD7921D36974F00982F27 /* RSPropertyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyTableViewCell.h; sourceTree = "<group>"; };
+		841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyTableViewCell.m; sourceTree = "<group>"; };
 		84B22DAA1D2D2FB60066E371 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84B22DAB1D2D2FB60066E371 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84B22DAD1D2D2FC00066E371 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -66,7 +69,7 @@
 		840038901D2673C000EB5CDA = {
 			isa = PBXGroup;
 			children = (
-				CD679FF11D36163800211116 /* MapKit.framework */,
+				841CD7911D36909900982F27 /* Frameworks */,
 				8400389B1D2673C000EB5CDA /* mRealState */,
 				8400389A1D2673C000EB5CDA /* Products */,
 			);
@@ -103,6 +106,23 @@
 				8400389D1D2673C000EB5CDA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841CD7911D36909900982F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD679FF11D36163800211116 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841CD7951D36975700982F27 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */,
+				841CD7921D36974F00982F27 /* RSPropertyTableViewCell.h */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 		84B22DA51D2D2F870066E371 /* Controller */ = {
@@ -154,6 +174,7 @@
 			children = (
 				CD679FF31D36430B00211116 /* RSTextField.h */,
 				CD679FF41D36430B00211116 /* RSTextField.m */,
+				841CD7951D36975700982F27 /* TableViewCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +256,7 @@
 			files = (
 				CD679FED1D36128600211116 /* RSReview.m in Sources */,
 				CD679FF81D365D5400211116 /* RSPropertyTableViewController.m in Sources */,
+				841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */,
 				84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */,
 				84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */,
 				CD679FF01D36129600211116 /* RSFeatures.m in Sources */,
