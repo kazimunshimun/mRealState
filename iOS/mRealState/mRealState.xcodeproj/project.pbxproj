@@ -14,6 +14,12 @@
 		841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
+		CD62D5141D375AC8008DC3AE /* RSPropertyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5131D375AC8008DC3AE /* RSPropertyDetailViewController.m */; };
+		CD62D5191D378E2D008DC3AE /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5181D378E2D008DC3AE /* CAPSPageMenu.m */; };
+		CD62D51C1D378ED1008DC3AE /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D51B1D378ED1008DC3AE /* OverviewViewController.m */; };
+		CD62D51F1D378EFA008DC3AE /* RSFeaturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D51E1D378EFA008DC3AE /* RSFeaturesTableViewController.m */; };
+		CD62D5221D378F10008DC3AE /* RSReviewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5211D378F10008DC3AE /* RSReviewTableViewController.m */; };
+		CD62D5251D378F28008DC3AE /* RSLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5241D378F28008DC3AE /* RSLocationViewController.m */; };
 		CD679FE41D3610AF00211116 /* RSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE31D3610AF00211116 /* RSUser.m */; };
 		CD679FE71D36117600211116 /* RSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE61D36117600211116 /* RSProperty.m */; };
 		CD679FEA1D36127500211116 /* RSCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE91D36127500211116 /* RSCompany.m */; };
@@ -37,6 +43,18 @@
 		84B22DAB1D2D2FB60066E371 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84B22DAD1D2D2FC00066E371 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84B22DAE1D2D2FC00066E371 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD62D5121D375AC8008DC3AE /* RSPropertyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyDetailViewController.h; sourceTree = "<group>"; };
+		CD62D5131D375AC8008DC3AE /* RSPropertyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyDetailViewController.m; sourceTree = "<group>"; };
+		CD62D5171D378E2D008DC3AE /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		CD62D5181D378E2D008DC3AE /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		CD62D51A1D378ED1008DC3AE /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
+		CD62D51B1D378ED1008DC3AE /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
+		CD62D51D1D378EFA008DC3AE /* RSFeaturesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSFeaturesTableViewController.h; sourceTree = "<group>"; };
+		CD62D51E1D378EFA008DC3AE /* RSFeaturesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSFeaturesTableViewController.m; sourceTree = "<group>"; };
+		CD62D5201D378F10008DC3AE /* RSReviewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSReviewTableViewController.h; sourceTree = "<group>"; };
+		CD62D5211D378F10008DC3AE /* RSReviewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSReviewTableViewController.m; sourceTree = "<group>"; };
+		CD62D5231D378F28008DC3AE /* RSLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLocationViewController.h; sourceTree = "<group>"; };
+		CD62D5241D378F28008DC3AE /* RSLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLocationViewController.m; sourceTree = "<group>"; };
 		CD679FE21D3610AF00211116 /* RSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUser.h; sourceTree = "<group>"; };
 		CD679FE31D3610AF00211116 /* RSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUser.m; sourceTree = "<group>"; };
 		CD679FE51D36117600211116 /* RSProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSProperty.h; sourceTree = "<group>"; };
@@ -132,6 +150,16 @@
 				84B22DAE1D2D2FC00066E371 /* ViewController.m */,
 				CD679FF61D365D5400211116 /* RSPropertyTableViewController.h */,
 				CD679FF71D365D5400211116 /* RSPropertyTableViewController.m */,
+				CD62D5121D375AC8008DC3AE /* RSPropertyDetailViewController.h */,
+				CD62D5131D375AC8008DC3AE /* RSPropertyDetailViewController.m */,
+				CD62D51A1D378ED1008DC3AE /* OverviewViewController.h */,
+				CD62D51B1D378ED1008DC3AE /* OverviewViewController.m */,
+				CD62D51D1D378EFA008DC3AE /* RSFeaturesTableViewController.h */,
+				CD62D51E1D378EFA008DC3AE /* RSFeaturesTableViewController.m */,
+				CD62D5201D378F10008DC3AE /* RSReviewTableViewController.h */,
+				CD62D5211D378F10008DC3AE /* RSReviewTableViewController.m */,
+				CD62D5231D378F28008DC3AE /* RSLocationViewController.h */,
+				CD62D5241D378F28008DC3AE /* RSLocationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,11 +200,21 @@
 		84B22DA91D2D2F870066E371 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD62D5161D378E2D008DC3AE /* PageMenu */,
 				CD679FF31D36430B00211116 /* RSTextField.h */,
 				CD679FF41D36430B00211116 /* RSTextField.m */,
 				841CD7951D36975700982F27 /* TableViewCell */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CD62D5161D378E2D008DC3AE /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CD62D5171D378E2D008DC3AE /* CAPSPageMenu.h */,
+				CD62D5181D378E2D008DC3AE /* CAPSPageMenu.m */,
+			);
+			path = PageMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,14 +293,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD679FED1D36128600211116 /* RSReview.m in Sources */,
+				CD62D51C1D378ED1008DC3AE /* OverviewViewController.m in Sources */,
 				CD679FF81D365D5400211116 /* RSPropertyTableViewController.m in Sources */,
 				841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */,
+				CD62D5191D378E2D008DC3AE /* CAPSPageMenu.m in Sources */,
+				CD62D5251D378F28008DC3AE /* RSLocationViewController.m in Sources */,
 				84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */,
+				CD62D5221D378F10008DC3AE /* RSReviewTableViewController.m in Sources */,
 				84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */,
 				CD679FF01D36129600211116 /* RSFeatures.m in Sources */,
+				CD62D5141D375AC8008DC3AE /* RSPropertyDetailViewController.m in Sources */,
 				8400389E1D2673C000EB5CDA /* main.m in Sources */,
 				CD679FF51D36430B00211116 /* RSTextField.m in Sources */,
 				CD679FE41D3610AF00211116 /* RSUser.m in Sources */,
+				CD62D51F1D378EFA008DC3AE /* RSFeaturesTableViewController.m in Sources */,
 				CD679FEA1D36127500211116 /* RSCompany.m in Sources */,
 				CD679FE71D36117600211116 /* RSProperty.m in Sources */,
 			);

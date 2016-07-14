@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RSPropertyDetailViewController.h"
 
 @interface RSPropertyTableViewController : UITableViewController
 
