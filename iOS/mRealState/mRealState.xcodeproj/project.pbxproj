@@ -19,6 +19,14 @@
 		840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */; };
 		840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849B01D3AB31C00EA72F0 /* GoogleUtilities.framework */; };
 		840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849B81D3AB32D00EA72F0 /* MapKit.framework */; };
+		840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849BA1D3AB62700EA72F0 /* libicucore.tbd */; };
+		840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849BC1D3AB64700EA72F0 /* libc++.tbd */; };
+		840849BF1D3AB67600EA72F0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849BE1D3AB67600EA72F0 /* CFNetwork.framework */; };
+		840849C11D3AB68700EA72F0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849C01D3AB68700EA72F0 /* Security.framework */; };
+		840849C31D3AB69000EA72F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849C21D3AB69000EA72F0 /* SystemConfiguration.framework */; };
+		840849C51D3AB6A500EA72F0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849C41D3AB6A500EA72F0 /* AddressBook.framework */; };
+		840849C71D3AB6D900EA72F0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849C61D3AB6D800EA72F0 /* libz.tbd */; };
+		840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849C81D3AB6FF00EA72F0 /* MobileCoreServices.framework */; };
 		841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
@@ -53,6 +61,14 @@
 		840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		840849B01D3AB31C00EA72F0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		840849B81D3AB32D00EA72F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		840849BA1D3AB62700EA72F0 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		840849BC1D3AB64700EA72F0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		840849BE1D3AB67600EA72F0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		840849C01D3AB68700EA72F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		840849C21D3AB69000EA72F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		840849C41D3AB6A500EA72F0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		840849C61D3AB6D800EA72F0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		840849C81D3AB6FF00EA72F0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		841CD7921D36974F00982F27 /* RSPropertyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyTableViewCell.h; sourceTree = "<group>"; };
 		841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyTableViewCell.m; sourceTree = "<group>"; };
 		84B22DAA1D2D2FB60066E371 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +108,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */,
+				840849C71D3AB6D900EA72F0 /* libz.tbd in Frameworks */,
+				840849C51D3AB6A500EA72F0 /* AddressBook.framework in Frameworks */,
+				840849C31D3AB69000EA72F0 /* SystemConfiguration.framework in Frameworks */,
+				840849C11D3AB68700EA72F0 /* Security.framework in Frameworks */,
+				840849BF1D3AB67600EA72F0 /* CFNetwork.framework in Frameworks */,
+				840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */,
+				840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */,
 				840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */,
 				840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */,
 				840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */,
@@ -151,6 +175,14 @@
 		840849A81D3AB2E600EA72F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840849C81D3AB6FF00EA72F0 /* MobileCoreServices.framework */,
+				840849C61D3AB6D800EA72F0 /* libz.tbd */,
+				840849C41D3AB6A500EA72F0 /* AddressBook.framework */,
+				840849C21D3AB69000EA72F0 /* SystemConfiguration.framework */,
+				840849C01D3AB68700EA72F0 /* Security.framework */,
+				840849BE1D3AB67600EA72F0 /* CFNetwork.framework */,
+				840849BC1D3AB64700EA72F0 /* libc++.tbd */,
+				840849BA1D3AB62700EA72F0 /* libicucore.tbd */,
 				840849B81D3AB32D00EA72F0 /* MapKit.framework */,
 				840849A91D3AB31C00EA72F0 /* Firebase.h */,
 				840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */,
@@ -460,6 +492,7 @@
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mStudio.mRealState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -477,6 +510,7 @@
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mStudio.mRealState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
