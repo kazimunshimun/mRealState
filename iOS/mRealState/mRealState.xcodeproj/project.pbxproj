@@ -11,6 +11,14 @@
 		840038A71D2673C000EB5CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038A51D2673C000EB5CDA /* Main.storyboard */; };
 		840038A91D2673C000EB5CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840038A81D2673C000EB5CDA /* Assets.xcassets */; };
 		840038AC1D2673C000EB5CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038AA1D2673C000EB5CDA /* LaunchScreen.storyboard */; };
+		840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */; };
+		840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */; };
+		840849B31D3AB31C00EA72F0 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */; };
+		840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */; };
+		840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */; };
+		840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */; };
+		840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849B01D3AB31C00EA72F0 /* GoogleUtilities.framework */; };
+		840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849B81D3AB32D00EA72F0 /* MapKit.framework */; };
 		841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
@@ -25,7 +33,6 @@
 		CD679FEA1D36127500211116 /* RSCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FE91D36127500211116 /* RSCompany.m */; };
 		CD679FED1D36128600211116 /* RSReview.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FEC1D36128600211116 /* RSReview.m */; };
 		CD679FF01D36129600211116 /* RSFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FEF1D36129600211116 /* RSFeatures.m */; };
-		CD679FF21D36163800211116 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD679FF11D36163800211116 /* MapKit.framework */; };
 		CD679FF51D36430B00211116 /* RSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FF41D36430B00211116 /* RSTextField.m */; };
 		CD679FF81D365D5400211116 /* RSPropertyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FF71D365D5400211116 /* RSPropertyTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -37,6 +44,15 @@
 		840038A81D2673C000EB5CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840038AB1D2673C000EB5CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840038AD1D2673C000EB5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840849A91D3AB31C00EA72F0 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
+		840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		840849B01D3AB31C00EA72F0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		840849B81D3AB32D00EA72F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		841CD7921D36974F00982F27 /* RSPropertyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyTableViewCell.h; sourceTree = "<group>"; };
 		841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyTableViewCell.m; sourceTree = "<group>"; };
 		84B22DAA1D2D2FB60066E371 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +81,6 @@
 		CD679FEC1D36128600211116 /* RSReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSReview.m; sourceTree = "<group>"; };
 		CD679FEE1D36129600211116 /* RSFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSFeatures.h; sourceTree = "<group>"; };
 		CD679FEF1D36129600211116 /* RSFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSFeatures.m; sourceTree = "<group>"; };
-		CD679FF11D36163800211116 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CD679FF31D36430B00211116 /* RSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTextField.h; sourceTree = "<group>"; };
 		CD679FF41D36430B00211116 /* RSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTextField.m; sourceTree = "<group>"; };
 		CD679FF61D365D5400211116 /* RSPropertyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyTableViewController.h; sourceTree = "<group>"; };
@@ -77,7 +92,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD679FF21D36163800211116 /* MapKit.framework in Frameworks */,
+				840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */,
+				840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */,
+				840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */,
+				840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */,
+				840849B31D3AB31C00EA72F0 /* FirebaseStorage.framework in Frameworks */,
+				840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +109,7 @@
 		840038901D2673C000EB5CDA = {
 			isa = PBXGroup;
 			children = (
-				841CD7911D36909900982F27 /* Frameworks */,
+				840849A81D3AB2E600EA72F0 /* Frameworks */,
 				8400389B1D2673C000EB5CDA /* mRealState */,
 				8400389A1D2673C000EB5CDA /* Products */,
 			);
@@ -126,12 +148,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		841CD7911D36909900982F27 /* Frameworks */ = {
+		840849A81D3AB2E600EA72F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD679FF11D36163800211116 /* MapKit.framework */,
+				840849B81D3AB32D00EA72F0 /* MapKit.framework */,
+				840849A91D3AB31C00EA72F0 /* Firebase.h */,
+				840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */,
+				840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */,
+				840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */,
+				840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */,
+				840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */,
+				840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */,
+				840849B01D3AB31C00EA72F0 /* GoogleUtilities.framework */,
 			);
-			name = Frameworks;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		841CD7951D36975700982F27 /* TableViewCell */ = {
@@ -374,6 +404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -411,6 +442,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -420,6 +452,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +469,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
