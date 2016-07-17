@@ -43,6 +43,15 @@
 		CD679FF01D36129600211116 /* RSFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FEF1D36129600211116 /* RSFeatures.m */; };
 		CD679FF51D36430B00211116 /* RSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FF41D36430B00211116 /* RSTextField.m */; };
 		CD679FF81D365D5400211116 /* RSPropertyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD679FF71D365D5400211116 /* RSPropertyTableViewController.m */; };
+		CDBBD21E1D3B821F000272DC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD21D1D3B821F000272DC /* AdSupport.framework */; };
+		CDBBD2201D3B8229000272DC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD21F1D3B8229000272DC /* SafariServices.framework */; };
+		CDBBD2221D3B8233000272DC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2211D3B8233000272DC /* StoreKit.framework */; };
+		CDBBD2241D3B824C000272DC /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2231D3B824C000272DC /* libc++.1.tbd */; };
+		CDBBD2261D3B8259000272DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */; };
+		CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2271D3B8261000272DC /* libsqlite3.tbd */; };
+		CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */; };
+		CDBBD22C1D3B82A2000272DC /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */; };
+		CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +110,15 @@
 		CD679FF41D36430B00211116 /* RSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTextField.m; sourceTree = "<group>"; };
 		CD679FF61D365D5400211116 /* RSPropertyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyTableViewController.h; sourceTree = "<group>"; };
 		CD679FF71D365D5400211116 /* RSPropertyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyTableViewController.m; sourceTree = "<group>"; };
+		CDBBD21D1D3B821F000272DC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CDBBD21F1D3B8229000272DC /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		CDBBD2211D3B8233000272DC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CDBBD2231D3B824C000272DC /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CDBBD2271D3B8261000272DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
+		CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,22 +126,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */,
+				CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */,
+				CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */,
+				CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */,
+				CDBBD2261D3B8259000272DC /* libsqlite3.0.tbd in Frameworks */,
+				CDBBD2241D3B824C000272DC /* libc++.1.tbd in Frameworks */,
+				CDBBD2221D3B8233000272DC /* StoreKit.framework in Frameworks */,
+				CDBBD22C1D3B82A2000272DC /* FirebaseCrash.framework in Frameworks */,
+				CDBBD2201D3B8229000272DC /* SafariServices.framework in Frameworks */,
+				CDBBD21E1D3B821F000272DC /* AdSupport.framework in Frameworks */,
 				840849C71D3AB6D900EA72F0 /* libz.tbd in Frameworks */,
+				840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */,
+				840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */,
+				840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */,
 				840849C51D3AB6A500EA72F0 /* AddressBook.framework in Frameworks */,
 				840849C31D3AB69000EA72F0 /* SystemConfiguration.framework in Frameworks */,
 				840849C11D3AB68700EA72F0 /* Security.framework in Frameworks */,
 				840849BF1D3AB67600EA72F0 /* CFNetwork.framework in Frameworks */,
-				840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */,
-				840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */,
+				840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */,
 				840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */,
 				840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */,
-				840849B91D3AB32D00EA72F0 /* MapKit.framework in Frameworks */,
-				840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */,
 				840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */,
+				840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */,
 				840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */,
 				840849B31D3AB31C00EA72F0 /* FirebaseStorage.framework in Frameworks */,
-				840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,15 +202,24 @@
 		840849A81D3AB2E600EA72F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				840849C81D3AB6FF00EA72F0 /* MobileCoreServices.framework */,
+				CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */,
+				CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */,
+				CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */,
+				CDBBD2271D3B8261000272DC /* libsqlite3.tbd */,
+				CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */,
+				CDBBD2231D3B824C000272DC /* libc++.1.tbd */,
+				CDBBD2211D3B8233000272DC /* StoreKit.framework */,
+				CDBBD21F1D3B8229000272DC /* SafariServices.framework */,
+				CDBBD21D1D3B821F000272DC /* AdSupport.framework */,
 				840849C61D3AB6D800EA72F0 /* libz.tbd */,
+				840849BC1D3AB64700EA72F0 /* libc++.tbd */,
+				840849BA1D3AB62700EA72F0 /* libicucore.tbd */,
+				840849C81D3AB6FF00EA72F0 /* MobileCoreServices.framework */,
+				840849B81D3AB32D00EA72F0 /* MapKit.framework */,
 				840849C41D3AB6A500EA72F0 /* AddressBook.framework */,
 				840849C21D3AB69000EA72F0 /* SystemConfiguration.framework */,
 				840849C01D3AB68700EA72F0 /* Security.framework */,
 				840849BE1D3AB67600EA72F0 /* CFNetwork.framework */,
-				840849BC1D3AB64700EA72F0 /* libc++.tbd */,
-				840849BA1D3AB62700EA72F0 /* libicucore.tbd */,
-				840849B81D3AB32D00EA72F0 /* MapKit.framework */,
 				840849A91D3AB31C00EA72F0 /* Firebase.h */,
 				840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */,
 				840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */,
