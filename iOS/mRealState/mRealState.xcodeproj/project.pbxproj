@@ -11,9 +11,7 @@
 		840038A71D2673C000EB5CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038A51D2673C000EB5CDA /* Main.storyboard */; };
 		840038A91D2673C000EB5CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840038A81D2673C000EB5CDA /* Assets.xcassets */; };
 		840038AC1D2673C000EB5CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840038AA1D2673C000EB5CDA /* LaunchScreen.storyboard */; };
-		840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */; };
 		840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */; };
-		840849B31D3AB31C00EA72F0 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */; };
 		840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */; };
 		840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */; };
 		840849B61D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */; };
@@ -30,6 +28,9 @@
 		841CD7941D36974F00982F27 /* RSPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7931D36974F00982F27 /* RSPropertyTableViewCell.m */; };
 		84B22DAC1D2D2FB60066E371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAB1D2D2FB60066E371 /* AppDelegate.m */; };
 		84B22DAF1D2D2FC00066E371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B22DAE1D2D2FC00066E371 /* ViewController.m */; };
+		CD4523C51D3CFF3E003A74D8 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4523C41D3CFF3E003A74D8 /* FirebaseCrash.framework */; };
+		CD4523C71D3D007A003A74D8 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4523C61D3D007A003A74D8 /* FirebaseDatabase.framework */; };
+		CD4523C91D3D00A6003A74D8 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4523C81D3D00A6003A74D8 /* FirebaseStorage.framework */; };
 		CD62D5141D375AC8008DC3AE /* RSPropertyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5131D375AC8008DC3AE /* RSPropertyDetailViewController.m */; };
 		CD62D5191D378E2D008DC3AE /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D5181D378E2D008DC3AE /* CAPSPageMenu.m */; };
 		CD62D51C1D378ED1008DC3AE /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62D51B1D378ED1008DC3AE /* OverviewViewController.m */; };
@@ -50,7 +51,6 @@
 		CDBBD2261D3B8259000272DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */; };
 		CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2271D3B8261000272DC /* libsqlite3.tbd */; };
 		CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */; };
-		CDBBD22C1D3B82A2000272DC /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */; };
 		CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,9 +62,7 @@
 		840038AB1D2673C000EB5CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840038AD1D2673C000EB5CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840849A91D3AB31C00EA72F0 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
 		840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
 		840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
@@ -84,6 +82,9 @@
 		84B22DAB1D2D2FB60066E371 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84B22DAD1D2D2FC00066E371 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84B22DAE1D2D2FC00066E371 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD4523C41D3CFF3E003A74D8 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
+		CD4523C61D3D007A003A74D8 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		CD4523C81D3D00A6003A74D8 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
 		CD62D5121D375AC8008DC3AE /* RSPropertyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPropertyDetailViewController.h; sourceTree = "<group>"; };
 		CD62D5131D375AC8008DC3AE /* RSPropertyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPropertyDetailViewController.m; sourceTree = "<group>"; };
 		CD62D5171D378E2D008DC3AE /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		CDBBD2271D3B8261000272DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
-		CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
 		CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -126,18 +126,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4523C51D3CFF3E003A74D8 /* FirebaseCrash.framework in Frameworks */,
 				CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */,
 				CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */,
 				CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */,
 				CDBBD2261D3B8259000272DC /* libsqlite3.0.tbd in Frameworks */,
 				CDBBD2241D3B824C000272DC /* libc++.1.tbd in Frameworks */,
 				CDBBD2221D3B8233000272DC /* StoreKit.framework in Frameworks */,
-				CDBBD22C1D3B82A2000272DC /* FirebaseCrash.framework in Frameworks */,
 				CDBBD2201D3B8229000272DC /* SafariServices.framework in Frameworks */,
 				CDBBD21E1D3B821F000272DC /* AdSupport.framework in Frameworks */,
 				840849C71D3AB6D900EA72F0 /* libz.tbd in Frameworks */,
 				840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */,
 				840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */,
+				CD4523C71D3D007A003A74D8 /* FirebaseDatabase.framework in Frameworks */,
 				840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */,
 				840849C51D3AB6A500EA72F0 /* AddressBook.framework in Frameworks */,
 				840849C31D3AB69000EA72F0 /* SystemConfiguration.framework in Frameworks */,
@@ -148,9 +149,8 @@
 				840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */,
 				840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */,
-				840849B11D3AB31C00EA72F0 /* FirebaseDatabase.framework in Frameworks */,
+				CD4523C91D3D00A6003A74D8 /* FirebaseStorage.framework in Frameworks */,
 				840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */,
-				840849B31D3AB31C00EA72F0 /* FirebaseStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +202,10 @@
 		840849A81D3AB2E600EA72F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD4523C81D3D00A6003A74D8 /* FirebaseStorage.framework */,
+				CD4523C61D3D007A003A74D8 /* FirebaseDatabase.framework */,
+				CD4523C41D3CFF3E003A74D8 /* FirebaseCrash.framework */,
 				CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */,
-				CDBBD22B1D3B82A2000272DC /* FirebaseCrash.framework */,
 				CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */,
 				CDBBD2271D3B8261000272DC /* libsqlite3.tbd */,
 				CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */,
@@ -221,9 +223,7 @@
 				840849C01D3AB68700EA72F0 /* Security.framework */,
 				840849BE1D3AB67600EA72F0 /* CFNetwork.framework */,
 				840849A91D3AB31C00EA72F0 /* Firebase.h */,
-				840849AA1D3AB31C00EA72F0 /* FirebaseDatabase.framework */,
 				840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */,
-				840849AC1D3AB31C00EA72F0 /* FirebaseStorage.framework */,
 				840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */,
 				840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */,
 				840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */,
@@ -472,7 +472,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -510,7 +510,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
