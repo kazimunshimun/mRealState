@@ -52,6 +52,8 @@
 		CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2271D3B8261000272DC /* libsqlite3.tbd */; };
 		CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */; };
 		CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */; };
+		CDEFB1E21D3E337900FE66B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDEFB1E11D3E337900FE66B8 /* GoogleService-Info.plist */; };
+		CDEFB1E41D3E394800FE66B8 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEFB1E31D3E394800FE66B8 /* FirebaseAnalytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +121,8 @@
 		CDBBD2271D3B8261000272DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CDEFB1E11D3E337900FE66B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDEFB1E31D3E394800FE66B8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4523C51D3CFF3E003A74D8 /* FirebaseCrash.framework in Frameworks */,
-				CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */,
+				CD4523C91D3D00A6003A74D8 /* FirebaseStorage.framework in Frameworks */,
+				840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */,
+				CD4523C71D3D007A003A74D8 /* FirebaseDatabase.framework in Frameworks */,
 				CDBBD22A1D3B826C000272DC /* libz.1.2.5.tbd in Frameworks */,
 				CDBBD2281D3B8261000272DC /* libsqlite3.tbd in Frameworks */,
 				CDBBD2261D3B8259000272DC /* libsqlite3.0.tbd in Frameworks */,
@@ -135,10 +141,11 @@
 				CDBBD2221D3B8233000272DC /* StoreKit.framework in Frameworks */,
 				CDBBD2201D3B8229000272DC /* SafariServices.framework in Frameworks */,
 				CDBBD21E1D3B821F000272DC /* AdSupport.framework in Frameworks */,
+				CDBBD22E1D3B82C3000272DC /* CoreTelephony.framework in Frameworks */,
+				CDEFB1E41D3E394800FE66B8 /* FirebaseAnalytics.framework in Frameworks */,
 				840849C71D3AB6D900EA72F0 /* libz.tbd in Frameworks */,
 				840849BD1D3AB64700EA72F0 /* libc++.tbd in Frameworks */,
 				840849BB1D3AB62700EA72F0 /* libicucore.tbd in Frameworks */,
-				CD4523C71D3D007A003A74D8 /* FirebaseDatabase.framework in Frameworks */,
 				840849C91D3AB6FF00EA72F0 /* MobileCoreServices.framework in Frameworks */,
 				840849C51D3AB6A500EA72F0 /* AddressBook.framework in Frameworks */,
 				840849C31D3AB69000EA72F0 /* SystemConfiguration.framework in Frameworks */,
@@ -149,8 +156,6 @@
 				840849B51D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework in Frameworks */,
 				840849B41D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				840849B71D3AB31C00EA72F0 /* GoogleUtilities.framework in Frameworks */,
-				CD4523C91D3D00A6003A74D8 /* FirebaseStorage.framework in Frameworks */,
-				840849B21D3AB31C00EA72F0 /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +191,7 @@
 				840038A81D2673C000EB5CDA /* Assets.xcassets */,
 				840038AA1D2673C000EB5CDA /* LaunchScreen.storyboard */,
 				840038AD1D2673C000EB5CDA /* Info.plist */,
+				CDEFB1E11D3E337900FE66B8 /* GoogleService-Info.plist */,
 				8400389C1D2673C000EB5CDA /* Supporting Files */,
 			);
 			path = mRealState;
@@ -202,11 +208,13 @@
 		840849A81D3AB2E600EA72F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDEFB1E31D3E394800FE66B8 /* FirebaseAnalytics.framework */,
 				CD4523C81D3D00A6003A74D8 /* FirebaseStorage.framework */,
 				CD4523C61D3D007A003A74D8 /* FirebaseDatabase.framework */,
 				CD4523C41D3CFF3E003A74D8 /* FirebaseCrash.framework */,
 				CDBBD22D1D3B82C3000272DC /* CoreTelephony.framework */,
 				CDBBD2291D3B826C000272DC /* libz.1.2.5.tbd */,
+				840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */,
 				CDBBD2271D3B8261000272DC /* libsqlite3.tbd */,
 				CDBBD2251D3B8259000272DC /* libsqlite3.0.tbd */,
 				CDBBD2231D3B824C000272DC /* libc++.1.tbd */,
@@ -223,7 +231,6 @@
 				840849C01D3AB68700EA72F0 /* Security.framework */,
 				840849BE1D3AB67600EA72F0 /* CFNetwork.framework */,
 				840849A91D3AB31C00EA72F0 /* Firebase.h */,
-				840849AB1D3AB31C00EA72F0 /* FirebaseInstanceID.framework */,
 				840849AD1D3AB31C00EA72F0 /* GoogleInterchangeUtilities.framework */,
 				840849AE1D3AB31C00EA72F0 /* GoogleNetworkingUtilities.framework */,
 				840849AF1D3AB31C00EA72F0 /* GoogleSymbolUtilities.framework */,
@@ -378,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840038AC1D2673C000EB5CDA /* LaunchScreen.storyboard in Resources */,
+				CDEFB1E21D3E337900FE66B8 /* GoogleService-Info.plist in Resources */,
 				840038A91D2673C000EB5CDA /* Assets.xcassets in Resources */,
 				840038A71D2673C000EB5CDA /* Main.storyboard in Resources */,
 			);
@@ -528,7 +536,7 @@
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mStudio.mRealState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -546,7 +554,10 @@
 				INFOPLIST_FILE = mRealState/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mStudio.mRealState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
